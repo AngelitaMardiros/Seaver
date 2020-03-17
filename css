@@ -1,0 +1,643 @@
+/***************   FONTS    ****************/
+
+
+h1, h2 {
+font-family: Cardo, serif;
+font-size: 38px;
+font-weight: 700;
+letter-spacing: 2px;
+line-height: 1.3em;
+color: #00303f;
+}
+
+
+h3, h4, h5 {
+font-family: Lato, sans-serif;
+font-weight: 400;
+letter-spacing: 2px;
+}
+
+
+h6 {
+font-family: Cardo, serif;
+}
+
+
+p {
+font-family: Cardo, serif;
+line-height: 1.8em;
+}
+
+
+ul {
+    list-style: disc outside none;
+    font-family: Cardo, serif;
+    font-size: 18px;
+    color: #333333;
+	margin-left: 30px;
+
+}
+
+
+/*************   NAVIGATION   *************/
+.et_header_style_split #top-menu-nav {
+    margin-right: -40px;
+}
+
+/*set desktop breakpoint*/
+@media only screen and ( max-width: 1230px ) {
+#top-menu-nav, #top-menu {display: none;}
+#et_top_search {display: none;}
+#et_mobile_nav_menu {display: block;}
+}
+
+
+/*************   FOOTER   *************/
+/*Kill the Divi Footer*/
+#main-footer {
+display:none !important;
+}
+
+
+/*************   BUTTONS   *************/
+
+/*CS Main Button*/
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_ogre_battle svg {
+    height: 59px;
+    transform: translate(0.5px, -50%) rotate(150deg) rotateY(180deg);
+    width: 59px;
+    overflow: visible !important;
+    position: absolute;
+    top: 50%;
+    left: -4px;
+}
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_ogre_battle .circle__progress {
+    fill: none;
+    stroke: #dcae1d !important;
+    stroke-width: 1;
+
+}
+
+#page-container .et_pb_button_module_wrapper .et_pb_button.freddie_button_ogre_battle .line {
+    background-color: #dcae1d !important;
+    width: 0;
+    height: 2px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/* footer say hello button */
+
+/* border */
+body .freddie_button_break_free svg path {
+    stroke: #DCAE1D !important;
+}
+
+
+/*CS Sound Button from Blog Posts*/
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_rendezvous svg {
+    display: block;
+    margin: 0 auto 7px;
+}
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_rendezvous svg rect {
+    fill: #dcae1d !important;
+}
+
+/*CS Video Player from Blog Posts*/
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_wild_wind .ovarlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_wild_wind .ovarlay:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    padding-top: 100%;
+    left: 0;
+    top: 100%;
+    border-radius: 50%;
+    background: #dcae1d !important;
+    transform: translateY(-50%) translateZ(0px) scale(0);
+    transition: transform 0.0s ease-in 0.4s, opacity 0.4s ease 0s;
+    opacity: 0;
+}
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_wild_wind:hover .ovarlay:before {
+    opacity: 1;
+    transform: translateY(-50%) translateZ(0px) scale(1.2);
+    transition: transform 0.6s, opacity 0.15s ease;
+}
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_wild_wind span {
+    display: block;
+}
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_wild_wind .button_icon img {
+    max-width: 12px;
+    display: block;
+}
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_wild_wind .button_icon {
+    position: absolute;
+    border: 2px solid #dcae1d !important;
+    border-radius: 50%;
+    padding: 9px;
+    left: 0;
+    right: 0;
+    display: block;
+    max-width: 34px;
+    margin: auto;
+    bottom: -22px;
+    background-color: #fff;
+    transform: scale(0);
+}
+
+/*Ask a Psychic & Photo Reading Form Buttons */
+.caldera-grid .btn-default {
+    color: #fff !important;
+    background-color: #00363f !important;
+    border-color: #00363f!important;
+}
+
+/*Responsive buttons*/
+
+@media only screen and (max-width: 1390px) {
+    .et_pb_button_module_wrapper .et_pb_button.freddie_button_wild_wind {
+        padding: 8px 25px !important;
+    }
+}
+
+
+/*************  HOME PAGE  *************/
+/*hero*/
+
+.tina_private_dancer_header .et_pb_slider .et_pb_slide h3 {
+    font-size: 17px;
+    color: #dcae1d !important;
+    font-family: "Lato";
+    font-weight: 700;
+    z-index: 99;
+    padding-bottom: 14px;
+}
+
+.tina_private_dancer_header .et_pb_slider .et_pb_slide:before {
+    counter-increment: section;
+    content: "0" counter(section);
+    font-size: 1410px;
+    display: block;
+    position: absolute;
+    letter-spacing: -180px;
+    line-height: 66%;
+    color: transparent !important;
+    z-index: 1;
+    font-family: "Vidaloka ";
+    font-weight: 400;
+    opacity: 0.3;
+    top: 0;
+    left: -63px;
+}
+
+.tina_private_dancer_header .et_pb_slider .et-pb-slider-arrows a .slide_image_and_title {
+    display: flex;
+    direction: ltr;
+    background-color: #00363f !important;
+}
+
+.tina_private_dancer_header .et_pb_slider .et-pb-slider-arrows a.et-pb-arrow-next:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    background-color: #cae4db !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+}
+
+.tina_private_dancer_header .et_pb_slider .et-pb-slider-arrows a h2:after {
+    content: "555" !important;
+    font-family: "ETmodules" !important;
+    display: block;
+    letter-spacing: -10px;
+    color: #dcae1d !important;
+    text-align: right;
+    padding-right: 15px;
+    margin-top: 17px;
+    transition: 0.3s;
+}
+
+.tina_private_dancer_header .et_pb_slider .et-pb-controllers a {
+    width: 30px;
+    height: 4px;
+    margin-right: 13px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    opacity: 1;
+    background-color:#dcae1d !important;
+    transition: 0.3s;
+    position: relative;
+    z-index: 20;
+}
+
+
+/*Choose Your Journey Section - blurbs fonts */
+
+.impi_patron_blurbs .et_pb_blurb_content p{
+	font-family: Cardo, Serif !important;
+}
+
+
+/*Testimonials 7 Testimonials 9*/
+.pixie_testimonials_8 .et-pb-controllers a:hover,
+.pixie_testimonials_9 .et-pb-controllers a:hover,
+.pixie_testimonials_7 .et-pb-controllers a:hover,
+.pixie_testimonials_8 .et-pb-controllers a.et-pb-active-control,
+.pixie_testimonials_9 .et-pb-controllers a.et-pb-active-control,
+.pixie_testimonials_7 .et-pb-controllers a.et-pb-active-control {
+    background-color: #cae4db !important;
+}
+
+
+.pixie_testimonials_8 .et-pb-controllers a,
+.pixie_testimonials_9 .et-pb-controllers a,
+.pixie_testimonials_7 .et-pb-controllers a {
+    width: 11px;
+    height: 11px;
+    background-color: transparent !important;
+    border: 2px solid #cae4db !important;
+    opacity: 1 !important;
+}
+
+.pixie_testimonials_9 .et_pb_slide_content h4,
+.pixie_testimonials_7 .et_pb_slide_content h4 {
+    font-family: Cardo, Serif !important;
+    padding-bottom: 3px;
+    font-weight: 400;
+}
+
+.pixie_testimonials_9 .et_pb_slide ,
+.pixie_testimonials_8 .et_pb_slide ,
+.pixie_testimonials_7 .et_pb_slide {
+    background: transparent !important;
+}
+
+/* Classes_Content */
+#page-container #main-content .impi_learn_more_content .et_pb_blurb .et_pb_blurb_container h4:hover,
+body.et-fb .impi_learn_more_content .et_pb_blurb .et_pb_blurb_container h4:hover {
+    background-color: #00363F !important;
+}
+
+
+/*************   ABOUT PAGE    *************/
+/* header */
+/*Diana Sample Social Header*/
+
+body .diana_simple_social_header .social_icons_row .et_pb_column {
+    position: absolute !important;
+    /*transform: rotate(-90deg);*/
+    transform-origin: left top;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    writing-mode: vertical-lr;
+    height: 100%;
+    width: auto !important;
+}
+
+body .diana_simple_social_header .social_icons_row .et_pb_column .et_pb_social_media_follow {
+    text-align: center !important;
+}
+
+.diana_simple_social_header .et_pb_column .et_pb_social_media_follow li {
+    margin-bottom: 0 !important;
+    transform: rotate(-180deg);
+    transform-origin: center;
+}
+
+.diana_simple_social_header .et_pb_column .et_pb_social_media_follow li:last-child a {
+    margin-top: 0 !important;
+}
+
+.diana_simple_social_header .et_pb_column .et_pb_social_media_follow li a {
+    position: relative;
+}
+
+.diana_simple_social_header .et_pb_column .et_pb_social_media_follow li a:after {
+    content: "Connect";
+    display: block;
+    font-family: Lato, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff !important;
+    position: absolute;
+    top: 50%;
+    transform: translate(-14px, -50%);
+    left: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.diana_simple_social_header .et_pb_column .et_pb_social_media_follow li a:hover:after {
+    opacity: 1;
+    transform: translate(0, -50%);
+}
+
+.diana_simple_social_header .et_pb_column .et_pb_social_media_follow li a:hover span {
+    opacity: 0;
+    transform: translate(15px, 0);
+}
+
+.diana_simple_social_header .et_pb_column .et_pb_social_media_follow li a span {
+    display: inline-block !important;
+    transition: 0.3s;
+}
+
+.diana_simple_social_header .et_pb_column .et_pb_social_media_follow li a:before {
+    display: none !important;
+}
+
+body.ie .diana_simple_social_header .et_pb_column .et_pb_social_media_follow li {
+    transform: none !important;
+}
+
+body.ie .diana_simple_social_header .et_pb_column .et_pb_social_media_follow li a {
+    margin-top: 0 !important;
+    margin-bottom: 20px !important;
+}
+
+
+/* CTA */
+/* sliding text */
+
+body .diana_no_sweat_blurbs .et_pb_blurb .et_pb_blurb_description {
+    background-color: #00363F !important;
+    font-family: Lato, sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #ffffff !important;
+    line-height: 120% !important;
+    transform: rotate(-180deg) !important;
+    transition: 0.4s !important;
+}
+
+
+
+/*************   FAQ PAGE   *************/
+/* Accordian toggles */
+body .impi_faq2_accordion .et_pb_accordion .et_pb_toggle h5:hover:before ,
+body .impi_faq2_accordion .et_pb_accordion .et_pb_toggle h5:hover,
+body .impi_faq2_accordion .et_pb_accordion .et_pb_toggle.et_pb_toggle_open h5 {
+    color: #ffffff !important;
+}
+
+body .impi_faq2_accordion .et_pb_accordion .et_pb_toggle.et_pb_toggle_open h5:before {
+    content: "\42" !important;
+    display: block !important;
+     color: #dcae1d !important;
+}
+
+
+/*************   BLOG PAGE   *************/
+/* timeline */
+
+/* == Timeline Blog == */
+
+body .impi_timeline_blog .et_pb_posts article:before {
+    background-color: #d2d8d7 !important;
+}
+
+/* border */
+
+body .impi_timeline_blog .et_pb_posts article {
+    border-color: #dedfe1 !important;
+
+}
+
+/* shadows */
+body .impi_timeline_blog .et_pb_posts article:nth-child(2n + 2) {
+    border-right-width: 1px;
+    box-shadow: 1px 0 0 0 #dedfe1 !important;
+
+}
+
+body .impi_timeline_blog .et_pb_posts article:nth-child(2n + 1) {
+    border-left-width: 1px !important;
+    box-shadow: -1px 0 0 0 #dedfe1 !important;
+}
+
+/* day */
+
+body .impi_timeline_blog .et_pb_posts article .top_date .day {
+    font-family: 'Playfair Display', Georgia, "Times New Roman", serif !important;
+    font-size: 48px !important;
+    font-weight: 700 !important;
+    color: #00363f !important;
+}
+
+/* month */
+
+body .impi_timeline_blog .et_pb_posts article .top_date .month {
+    font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif !important;
+    font-size: 16px !important;
+    color: #dcae1d !important;
+    font-weight: 400 !important;
+}
+
+/* pagination */
+
+body .impi_timeline_blog .pagination a {
+    font-family: 'Manus' !important;
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    color: #00363F !important;
+}
+
+/* line */
+
+body .impi_timeline_blog .et_pb_posts article:hover .entry-title a {
+    color: #dcae1d !important;
+}
+
+
+/*************   EVENTS + CLASSES PAGE   *************/
+/*course catalog*/
+/*Tab inner border*/
+
+body .pixie_tabs .et_pb_tabs .et_pb_tabs_controls li:after {
+    border: 1px solid #cae4db !important;
+}
+
+body .pixie_tabs .et_pb_tabs .et_pb_tabs_controls li:hover,
+body .pixie_tabs .et_pb_tabs .et_pb_tabs_controls li.et_pb_tab_active {
+   background-color: #00363F !important;
+}
+
+body #page-container .pixie_tabs .et_pb_tabs .et_pb_tabs_controls li {
+display: flex !important;
+}
+body #page-container .pixie_tabs .et_pb_tabs .et_pb_tabs_controls li a {
+margin: auto;
+}
+
+body #page-container .pixie_tabs .et_pb_tabs .et_pb_tabs_controls li {
+width: 19.25% !important;
+margin-right: .75% !important;
+}
+
+body #page-container .pixie_tabs .et_pb_tabs .et_pb_tabs_controls li:last-child {
+margin-right: 0 !important;
+}
+
+
+/*************   BOOK A READING PAGE   *************/
+
+/*additional services section*/
+/* buttons fixed to the bottom */
+.fixed_buttons .et_pb_column {
+ padding-bottom:30px;}
+ .fixed_buttons .et_pb_button_module_wrapper {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin: auto;}
+
+/*pop-up forms for ask a question + photo reading*/
+.forminator-button-submit {
+	background-color: #00363f !important;
+	color: #ffffff;
+}
+
+.forminator-button-submit a:hover {
+	background-color: #dcae1d !important;
+	color: #ffffff;
+}
+
+
+
+/*************  RESPONSIVENESS   *************/
+
+
+/*Make Site Wider on Smaller Screens*/
+
+@media only screen and (max-width: 980px) {
+.et_pb_row {
+width: 90% !important;
+}
+}
+
+
+/*Home Page */
+@media only screen and (max-width: 480px) {
+#mobileslider.tina_private_dancer_header .et_pb_slider .et_pb_slide_description {
+        max-width: 295px !important;
+    }
+}
+
+/*Interior Page Headers*/
+@media only screen and (max-width: 767px) {
+#mobilehero.diana_simple_social_header .et_pb_text {
+text-align: left !important;
+}
+}
+
+/*About Page Header*/
+
+
+@media only screen and (max-width: 1500px) {
+    .diana_simple_social_header {
+        padding-left: 120px !important;
+    }
+
+}
+@media only screen and (max-width: 1390px) {
+	.diana_simple_social_header .et_pb_row,
+    .et_pb_row.header_get_touch_menu {
+        width: 90% !important;
+    }
+}
+
+
+@media only screen and (max-width: 980px) {
+	.diana_simple_social_header {
+        padding-left: 50px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body .diana_simple_social_header .social_icons_row .et_pb_column {
+        -ms-writing-mode: tb-rl !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+.diana_simple_social_header .et_pb_text {
+    text-align: left !important;}
+}
+
+@media only screen and (max-width: 767px) {
+	body .diana_simple_social_header .social_icons_row .et_pb_column {
+        writing-mode: unset !important;
+        height: auto;
+        width: 100% !important;
+    }
+
+    .diana_simple_social_header .et_pb_column .et_pb_social_media_follow li:last-child a {
+        margin-right: 0 !important;
+    }
+
+    .diana_simple_social_header .et_pb_column .et_pb_social_media_follow li a {
+        margin-right: 30px !important;
+        margin-top: 0 !important;
+    }
+
+    .diana_simple_social_header .et_pb_text {
+        text-align: left !important;
+    }
+
+    .diana_simple_social_header {
+        padding-left: 0 !important;
+    }
+
+    .diana_simple_social_header .et_pb_column .et_pb_social_media_follow li {
+        transform: rotate(0deg);
+    }
+
+    body.ie .diana_simple_social_header .et_pb_column .et_pb_social_media_follow li a {
+        margin-bottom: 0 !important;
+    }
+}
+
+/* center content in tabs - course catalog - events + classes page */
+@media all and (max-width: 980px) {
+.pixie_tabs .et_pb_tabs_controls {
+margin: 0 auto !important;
+}
+}
+
+@media all and (max-width: 980px) {
+body #page-container div.pixie_tabs .et_pb_tabs .et_pb_tabs_controls li {
+width: 48% !important;
+float: left !important;
+margin-right: 0 !important;
+}
+}
+@media all and (max-width: 640px) {
+body #page-container div.pixie_tabs .et_pb_tabs .et_pb_tabs_controls li {
+width: 100% !important;
+}
+}
