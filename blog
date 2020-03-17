@@ -1,0 +1,60 @@
+/*************   BLOG PAGE   *************/
+/* timeline */
+
+/* == Timeline Blog == */
+
+body .impi_timeline_blog .et_pb_posts article:before {
+    background-color: #d2d8d7 !important;
+}
+
+/* border */
+
+body .impi_timeline_blog .et_pb_posts article {
+    border-color: #dedfe1 !important;
+
+}
+
+/* shadows */
+body .impi_timeline_blog .et_pb_posts article:nth-child(2n + 2) {
+    border-right-width: 1px;
+    box-shadow: 1px 0 0 0 #dedfe1 !important;
+
+}
+
+body .impi_timeline_blog .et_pb_posts article:nth-child(2n + 1) {
+    border-left-width: 1px !important;
+    box-shadow: -1px 0 0 0 #dedfe1 !important;
+}
+
+/* day */
+
+body .impi_timeline_blog .et_pb_posts article .top_date .day {
+    font-family: 'Playfair Display', Georgia, "Times New Roman", serif !important;
+    font-size: 48px !important;
+    font-weight: 700 !important;
+    color: #00363f !important;
+}
+
+/* month */
+
+body .impi_timeline_blog .et_pb_posts article .top_date .month {
+    font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif !important;
+    font-size: 16px !important;
+    color: #dcae1d !important;
+    font-weight: 400 !important;
+}
+
+/* pagination */
+
+body .impi_timeline_blog .pagination a {
+    font-family: 'Manus' !important;
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    color: #00363F !important;
+}
+
+/* line */
+
+body .impi_timeline_blog .et_pb_posts article:hover .entry-title a {
+    color: #dcae1d !important;
+}
