@@ -1,0 +1,119 @@
+/*************   BUTTONS   *************/
+
+/*CS Main Button*/
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_ogre_battle svg {
+    height: 59px;
+    transform: translate(0.5px, -50%) rotate(150deg) rotateY(180deg);
+    width: 59px;
+    overflow: visible !important;
+    position: absolute;
+    top: 50%;
+    left: -4px;
+}
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_ogre_battle .circle__progress {
+    fill: none;
+    stroke: #dcae1d !important;
+    stroke-width: 1;
+
+}
+
+#page-container .et_pb_button_module_wrapper .et_pb_button.freddie_button_ogre_battle .line {
+    background-color: #dcae1d !important;
+    width: 0;
+    height: 2px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+/* footer say hello button */
+
+/* border */
+body .freddie_button_break_free svg path {
+    stroke: #DCAE1D !important;
+}
+
+
+/*CS Sound Button from Blog Posts*/
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_rendezvous svg {
+    display: block;
+    margin: 0 auto 7px;
+}
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_rendezvous svg rect {
+    fill: #dcae1d !important;
+}
+
+/*CS Video Player from Blog Posts*/
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_wild_wind .ovarlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_wild_wind .ovarlay:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    padding-top: 100%;
+    left: 0;
+    top: 100%;
+    border-radius: 50%;
+    background: #dcae1d !important;
+    transform: translateY(-50%) translateZ(0px) scale(0);
+    transition: transform 0.0s ease-in 0.4s, opacity 0.4s ease 0s;
+    opacity: 0;
+}
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_wild_wind:hover .ovarlay:before {
+    opacity: 1;
+    transform: translateY(-50%) translateZ(0px) scale(1.2);
+    transition: transform 0.6s, opacity 0.15s ease;
+}
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_wild_wind span {
+    display: block;
+}
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_wild_wind .button_icon img {
+    max-width: 12px;
+    display: block;
+}
+
+.et_pb_button_module_wrapper .et_pb_button.freddie_button_wild_wind .button_icon {
+    position: absolute;
+    border: 2px solid #dcae1d !important;
+    border-radius: 50%;
+    padding: 9px;
+    left: 0;
+    right: 0;
+    display: block;
+    max-width: 34px;
+    margin: auto;
+    bottom: -22px;
+    background-color: #fff;
+    transform: scale(0);
+}
+
+/*Ask a Psychic & Photo Reading Form Buttons */
+.caldera-grid .btn-default {
+    color: #fff !important;
+    background-color: #00363f !important;
+    border-color: #00363f!important;
+}
+
+/*Responsive buttons*/
+
+@media only screen and (max-width: 1390px) {
+    .et_pb_button_module_wrapper .et_pb_button.freddie_button_wild_wind {
+        padding: 8px 25px !important;
+    }
+}
