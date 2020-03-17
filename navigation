@@ -1,0 +1,18 @@
+/*************   NAVIGATION   *************/
+.et_header_style_split #top-menu-nav {
+    margin-right: -40px;
+}
+
+/*set desktop breakpoint*/
+@media only screen and ( max-width: 1230px ) {
+#top-menu-nav, #top-menu {display: none;}
+#et_top_search {display: none;}
+#et_mobile_nav_menu {display: block;}
+}
+
+
+/*************   FOOTER   *************/
+/*Kill the Divi Footer*/
+#main-footer {
+display:none !important;
+}
