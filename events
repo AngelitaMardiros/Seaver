@@ -1,0 +1,30 @@
+
+/*************   EVENTS + CLASSES PAGE   *************/
+/*course catalog*/
+/*Tab inner border*/
+
+body .pixie_tabs .et_pb_tabs .et_pb_tabs_controls li:after {
+    border: 1px solid #cae4db !important;
+}
+
+body .pixie_tabs .et_pb_tabs .et_pb_tabs_controls li:hover,
+body .pixie_tabs .et_pb_tabs .et_pb_tabs_controls li.et_pb_tab_active {
+   background-color: #00363F !important;
+}
+
+body #page-container .pixie_tabs .et_pb_tabs .et_pb_tabs_controls li {
+display: flex !important;
+}
+body #page-container .pixie_tabs .et_pb_tabs .et_pb_tabs_controls li a {
+margin: auto;
+}
+
+body #page-container .pixie_tabs .et_pb_tabs .et_pb_tabs_controls li {
+width: 19.25% !important;
+margin-right: .75% !important;
+}
+
+body #page-container .pixie_tabs .et_pb_tabs .et_pb_tabs_controls li:last-child {
+margin-right: 0 !important;
+}
+
