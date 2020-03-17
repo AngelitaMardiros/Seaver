@@ -89,3 +89,4 @@ body .diana_no_sweat_blurbs .et_pb_blurb .et_pb_blurb_description {
     transform: rotate(-180deg) !important;
     transition: 0.4s !important;
 }
+
