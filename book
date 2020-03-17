@@ -1,0 +1,24 @@
+/*************   BOOK A READING PAGE   *************/
+
+/*additional services section*/
+/* buttons fixed to the bottom */
+.fixed_buttons .et_pb_column {
+ padding-bottom:30px;}
+ .fixed_buttons .et_pb_button_module_wrapper {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin: auto;}
+
+/*pop-up forms for ask a question + photo reading*/
+.forminator-button-submit {
+	background-color: #00363f !important;
+	color: #ffffff;
+}
+
+.forminator-button-submit a:hover {
+	background-color: #dcae1d !important;
+	color: #ffffff;
+}
+
