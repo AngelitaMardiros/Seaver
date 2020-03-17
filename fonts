@@ -1,0 +1,39 @@
+/***************   FONTS    ****************/
+
+
+h1, h2 {
+font-family: Cardo, serif;
+font-size: 38px;
+font-weight: 700;
+letter-spacing: 2px;
+line-height: 1.3em;
+color: #00303f;
+}
+
+
+h3, h4, h5 {
+font-family: Lato, sans-serif;
+font-weight: 400;
+letter-spacing: 2px;
+}
+
+
+h6 {
+font-family: Cardo, serif;
+}
+
+
+p {
+font-family: Cardo, serif;
+line-height: 1.8em;
+}
+
+
+ul {
+    list-style: disc outside none;
+    font-family: Cardo, serif;
+    font-size: 18px;
+    color: #333333;
+	margin-left: 30px;
+
+}
