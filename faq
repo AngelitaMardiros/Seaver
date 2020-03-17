@@ -1,0 +1,13 @@
+/*************   FAQ PAGE   *************/
+/* Accordian toggles */
+body .impi_faq2_accordion .et_pb_accordion .et_pb_toggle h5:hover:before ,
+body .impi_faq2_accordion .et_pb_accordion .et_pb_toggle h5:hover,
+body .impi_faq2_accordion .et_pb_accordion .et_pb_toggle.et_pb_toggle_open h5 {
+    color: #ffffff !important;
+}
+
+body .impi_faq2_accordion .et_pb_accordion .et_pb_toggle.et_pb_toggle_open h5:before {
+    content: "\42" !important;
+    display: block !important;
+     color: #dcae1d !important;
+}
