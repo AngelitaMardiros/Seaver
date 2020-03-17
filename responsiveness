@@ -1,0 +1,112 @@
+/*************  RESPONSIVENESS   *************/
+
+
+/*Make Site Wider on Smaller Screens*/
+
+@media only screen and (max-width: 980px) {
+.et_pb_row {
+width: 90% !important;
+}
+}
+
+
+/*Home Page */
+@media only screen and (max-width: 480px) {
+#mobileslider.tina_private_dancer_header .et_pb_slider .et_pb_slide_description {
+        max-width: 295px !important;
+    }
+}
+
+/*Interior Page Headers*/
+@media only screen and (max-width: 767px) {
+#mobilehero.diana_simple_social_header .et_pb_text {
+text-align: left !important;
+}
+}
+
+/*About Page Header*/
+
+
+@media only screen and (max-width: 1500px) {
+    .diana_simple_social_header {
+        padding-left: 120px !important;
+    }
+
+}
+@media only screen and (max-width: 1390px) {
+	.diana_simple_social_header .et_pb_row,
+    .et_pb_row.header_get_touch_menu {
+        width: 90% !important;
+    }
+}
+
+
+@media only screen and (max-width: 980px) {
+	.diana_simple_social_header {
+        padding-left: 50px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body .diana_simple_social_header .social_icons_row .et_pb_column {
+        -ms-writing-mode: tb-rl !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+.diana_simple_social_header .et_pb_text {
+    text-align: left !important;}
+}
+
+@media only screen and (max-width: 767px) {
+	body .diana_simple_social_header .social_icons_row .et_pb_column {
+        writing-mode: unset !important;
+        height: auto;
+        width: 100% !important;
+    }
+
+    .diana_simple_social_header .et_pb_column .et_pb_social_media_follow li:last-child a {
+        margin-right: 0 !important;
+    }
+
+    .diana_simple_social_header .et_pb_column .et_pb_social_media_follow li a {
+        margin-right: 30px !important;
+        margin-top: 0 !important;
+    }
+
+    .diana_simple_social_header .et_pb_text {
+        text-align: left !important;
+    }
+
+    .diana_simple_social_header {
+        padding-left: 0 !important;
+    }
+
+    .diana_simple_social_header .et_pb_column .et_pb_social_media_follow li {
+        transform: rotate(0deg);
+    }
+
+    body.ie .diana_simple_social_header .et_pb_column .et_pb_social_media_follow li a {
+        margin-bottom: 0 !important;
+    }
+}
+
+/* center content in tabs - course catalog - events + classes page */
+@media all and (max-width: 980px) {
+.pixie_tabs .et_pb_tabs_controls {
+margin: 0 auto !important;
+}
+}
+
+@media all and (max-width: 980px) {
+body #page-container div.pixie_tabs .et_pb_tabs .et_pb_tabs_controls li {
+width: 48% !important;
+float: left !important;
+margin-right: 0 !important;
+}
+}
+@media all and (max-width: 640px) {
+body #page-container div.pixie_tabs .et_pb_tabs .et_pb_tabs_controls li {
+width: 100% !important;
+}
+}
