@@ -1,0 +1,120 @@
+/*************  HOME PAGE  *************/
+/*hero*/
+
+.tina_private_dancer_header .et_pb_slider .et_pb_slide h3 {
+    font-size: 17px;
+    color: #dcae1d !important;
+    font-family: "Lato";
+    font-weight: 700;
+    z-index: 99;
+    padding-bottom: 14px;
+}
+
+.tina_private_dancer_header .et_pb_slider .et_pb_slide:before {
+    counter-increment: section;
+    content: "0" counter(section);
+    font-size: 1410px;
+    display: block;
+    position: absolute;
+    letter-spacing: -180px;
+    line-height: 66%;
+    color: transparent !important;
+    z-index: 1;
+    font-family: "Vidaloka ";
+    font-weight: 400;
+    opacity: 0.3;
+    top: 0;
+    left: -63px;
+}
+
+.tina_private_dancer_header .et_pb_slider .et-pb-slider-arrows a .slide_image_and_title {
+    display: flex;
+    direction: ltr;
+    background-color: #00363f !important;
+}
+
+.tina_private_dancer_header .et_pb_slider .et-pb-slider-arrows a.et-pb-arrow-next:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    background-color: #cae4db !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+}
+
+.tina_private_dancer_header .et_pb_slider .et-pb-slider-arrows a h2:after {
+    content: "555" !important;
+    font-family: "ETmodules" !important;
+    display: block;
+    letter-spacing: -10px;
+    color: #dcae1d !important;
+    text-align: right;
+    padding-right: 15px;
+    margin-top: 17px;
+    transition: 0.3s;
+}
+
+.tina_private_dancer_header .et_pb_slider .et-pb-controllers a {
+    width: 30px;
+    height: 4px;
+    margin-right: 13px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    opacity: 1;
+    background-color:#dcae1d !important;
+    transition: 0.3s;
+    position: relative;
+    z-index: 20;
+}
+
+
+/*Choose Your Journey Section - blurbs fonts */
+
+.impi_patron_blurbs .et_pb_blurb_content p{
+	font-family: Cardo, Serif !important;
+}
+
+
+/*Testimonials 7 Testimonials 9*/
+.pixie_testimonials_8 .et-pb-controllers a:hover,
+.pixie_testimonials_9 .et-pb-controllers a:hover,
+.pixie_testimonials_7 .et-pb-controllers a:hover,
+.pixie_testimonials_8 .et-pb-controllers a.et-pb-active-control,
+.pixie_testimonials_9 .et-pb-controllers a.et-pb-active-control,
+.pixie_testimonials_7 .et-pb-controllers a.et-pb-active-control {
+    background-color: #cae4db !important;
+}
+
+
+.pixie_testimonials_8 .et-pb-controllers a,
+.pixie_testimonials_9 .et-pb-controllers a,
+.pixie_testimonials_7 .et-pb-controllers a {
+    width: 11px;
+    height: 11px;
+    background-color: transparent !important;
+    border: 2px solid #cae4db !important;
+    opacity: 1 !important;
+}
+
+.pixie_testimonials_9 .et_pb_slide_content h4,
+.pixie_testimonials_7 .et_pb_slide_content h4 {
+    font-family: Cardo, Serif !important;
+    padding-bottom: 3px;
+    font-weight: 400;
+}
+
+.pixie_testimonials_9 .et_pb_slide ,
+.pixie_testimonials_8 .et_pb_slide ,
+.pixie_testimonials_7 .et_pb_slide {
+    background: transparent !important;
+}
+
+/* Classes_Content */
+#page-container #main-content .impi_learn_more_content .et_pb_blurb .et_pb_blurb_container h4:hover,
+body.et-fb .impi_learn_more_content .et_pb_blurb .et_pb_blurb_container h4:hover {
+    background-color: #00363F !important;
+}
